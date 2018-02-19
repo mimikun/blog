@@ -1,10 +1,13 @@
 +++
+title = "{{ replace .Name "-" " " | title }}"
+date = "{{ .Date }}"
+draft = true
+description = ""
 tags = []
 categories = []
-description = ""
-menu = ""
-banner = ""
 images = []
+banner = ""
+menu = ""
 +++
 
 <!--more-->
