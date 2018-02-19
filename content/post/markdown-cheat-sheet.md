@@ -1,12 +1,13 @@
 +++
-banner = ""
-categories = []
-date = "2017-05-20T12:10:51+02:00"
-description = ""
-images = []
-menu = ""
-tags = ["markdown"]
 title = "Markdown Cheat Sheet"
+date = "2017-05-20T12:10:51+02:00"
+draft = false
+description = ""
+tags = ["markdown"]
+categories = []
+images = []
+banner = ""
+menu = ""
 +++
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
