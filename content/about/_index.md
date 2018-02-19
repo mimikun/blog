@@ -1,8 +1,16 @@
 +++
-title = "About"
-date = "2017-05-19T21:49:20+02:00"
+title = "About Me"
+date = "2018-02-20T00:35:41+09:00"
 menu = "main"
 disable_comments = true
 +++
 
-Add some information about yourself.
+I'm mimikun.
+
+[mimikun丼](https://mstdn.mimikun.jp) Administrator.
+
+Love: Yukikaze(KanColle, Warship Girls, Azurlane, etc...)
+
+Like: Python
+
+Interested: Go, Rails, React
