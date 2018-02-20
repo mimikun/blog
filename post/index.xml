@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on mimikun blog</title>
+    <link>https://blog.mimikun.jp/post/</link>
+    <description>Recent content in Posts on mimikun blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 20 Feb 2018 02:02:51 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.mimikun.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>艦これ18冬イベ E-1</title>
+      <link>https://blog.mimikun.jp/2018/02/20/kancolle_18winter_e_1/</link>
+      <pubDate>Tue, 20 Feb 2018 02:02:51 +0900</pubDate>
+      
+      <guid>https://blog.mimikun.jp/2018/02/20/kancolle_18winter_e_1/</guid>
+      <description>丙作戦での攻略メモとなります。
+ギミックはF, N, BマスでのA勝利以上らしいです。
+Bマス勝利後に撤退せず、進撃しないとうまくいかないようです。
+(自分はBマスS勝利後撤退、F, Nマス勝利としたためうまく行かなくて余分に出撃してしまいました。)
+ギミック解除編成  Fマス
+ 軽巡1, 駆逐3, 戦艦1, 軽空母1  Nマス
+ 軽巡1, 駆逐3, 戦艦1, 軽空母1  Bマス
+ 駆逐5, 軽空母1   自分の編成  Fマス
+ 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Nマス
+ 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Bマス
+ 雪風改, 時雨改二, 夕立改二, Верный, 時津風, 千代田航改二     ボスマス  軽巡1, 駆逐3, 戦艦1, 軽空母1</description>
+    </item>
+    
+  </channel>
+</rss>

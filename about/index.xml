@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on mimikun blog</title>
+    <link>https://blog.mimikun.jp/about/</link>
+    <description>Recent content in About Me on mimikun blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 20 Feb 2018 00:35:41 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.mimikun.jp/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
