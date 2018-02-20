@@ -1,10 +1,10 @@
 +++
 title = "艦これ18冬イベ E-1"
 date = "2018-02-20T02:02:51+09:00"
-draft = true
+draft = false
 description = ""
 tags = ["艦これ"]
-categories = []
+categories = ["艦これ"]
 images = []
 banner = ""
 menu = ""
