@@ -13,6 +13,7 @@ theme = "icarus"
 # Comment the themesDir option if you use this theme in production
 #themesDir = "../.."
 themesDir = "themes"
+canonifyurls = true
 [permalinks]
     post = "/:year/:month/:day/:filename"
 
