@@ -101,3 +101,27 @@
 {{ with .Site.Social.twitter }}
 <td><a href="//twitter.com/{{.}}" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
 {{ end }}
+
+{{ with .Site.Social.mastodon }}
+<td><a href="//{{.}}" target="_blank" title="Mastodon"><i class="fa fa-mastodon"></i></a></td>
+{{ end }}
+
+{{ with .Site.Social.diaspora }}
+<td><a href="//{{.}}" target="_blank" title="Diaspora"><i class="fa fa-diaspora"></i></a></td>
+{{ end }}
+
+{{ with .Site.Social.pleroma }}
+<td><a href="//{{.}}" target="_blank" title="Pleroma"><i class="fa fa-link"></i></a></td>
+{{ end }}
+
+{{ with .Site.Social.gnusocial }}
+<td><a href="//{{.}}" target="_blank" title="GNUSocial"><i class="fa fa-gnu-social"></i></a></td>
+{{ end }}
+
+{{ with .Site.Social.peertube }}
+<td><a href="//{{.}}" target="_blank" title="PeerTube"><i class="fa fa-peertube"></i></a></td>
+{{ end }}
+
+{{ with .Site.Social.discord }}
+<td><a href="//{{.}}" target="_blank" title="Discord"><i class="fa fa-discord"></i></a></td>
+{{ end }}
