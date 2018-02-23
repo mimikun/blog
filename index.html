@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-02-20T02:02:51&#43;09:00"/>
+<meta property="og:updated_time" content="2018-02-23T19:01:46&#43;09:00"/>
 
 
 
@@ -177,7 +177,7 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        1
+        2
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -273,6 +273,151 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/">
+    <h1 class="article-title" itemprop="name">
+        艦これ18冬イベ E-2
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2018-02-23 19:01:46 &#43;0900 JST" itemprop="datePublished">2018-02-23</time>
+            &middot;
+            37
+            words
+            &middot;
+            1
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C">艦これ</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C">艦これ</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                 丁作戦での攻略メモとなります。
+丁作戦の場合、ギミックはTマス到達だけらしいです。
+ギミック解除編成  潜水艦6  U-511, 伊401, 伊19, 伊168, 伊8, 伊58改     ボスマス 連合艦隊での攻略となるようです。
+Rマスを避けるために高速艦で統一します。
+ 第一艦隊  戦艦2, 航巡1, 重巡2, 軽空母1  金剛改, 霧島改, 鈴谷改, 妙高改, 那智改, 千歳航改二   第二艦隊  軽巡1, 駆逐5  阿武隈改二, 雪風改, 時雨改二, Верный, 夕立改二, 照月改      基地航空隊   ドロップしたレア艦  ボスマスS勝利  葛城     
+            </p>
+            <p class="article-more-link">
+                <a href="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/" data-id="6d9001b8fcfe804211c8da08a906fbfd" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="https://mastoshare.net/post.php?text=' + encodedUrl + '" class="fa fa-mastodon article-share-twitter" target="_blank" title="Mastodon"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -445,6 +590,32 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C">
+                        艦これ
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/" class="title">艦これ18冬イベ E-2</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-02-23 19:01:46 &#43;0900 JST" itemprop="datePublished">2018-02-23</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://mimikun.github.io/blog/2018/02/20/kancolle_18winter_e_1/" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
@@ -487,7 +658,7 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
                 <a class="category-list-link" href="https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C">
                     艦これ
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
         </ul>
@@ -512,7 +683,7 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
                 <a class="category-list-link" href="https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C">
                     艦これ
                 </a>
-                <span class="category-list-count">1</span>
+                <span class="category-list-count">2</span>
             </li>
             
         </ul>
