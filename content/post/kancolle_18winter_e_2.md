@@ -21,7 +21,7 @@ menu = ""
     {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/029/496/original/46429ff0ca9e844d.png" class="center" width="320" height="640" >}}
 
 ## ボスマス
-連合艦隊での攻略となるようです。
+連合艦隊(水上部隊)での攻略となるようです。
 
 Rマスを避けるために高速艦で統一します。
 
