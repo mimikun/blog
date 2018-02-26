@@ -6,10 +6,29 @@
     <description>Recent content in 艦これ on mimikun blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 23 Feb 2018 19:01:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 20:07:39 +0900</lastBuildDate>
     
 	<atom:link href="https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>艦これ18冬イベ E-3</title>
+      <link>https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_3/</link>
+      <pubDate>Mon, 26 Feb 2018 20:07:39 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_3/</guid>
+      <description> 丙作戦での攻略メモとなります。
+当然っちゃ当然ですがギミックがあるので解除していきます。
+ギミックはHマス到達, Sマス到達です。
+ギミック解除編成 Hマス到達  潜水艦1
+ 伊58改    基地航空隊(Bマス集中)    Sマス到達 連合艦隊(機動部隊)での攻略となるようです。
+ 第一艦隊
+ 航戦2, 軽母2, 空母2  扶桑改, 伊勢改, 千代田航改二, 千歳航改二, 翔鶴改, 瑞鶴改   第二艦隊
+ 駆逐2, 重巡2, 軽巡1, 雷巡2  照月改, 妙高改, 那智改, 北上改二, 阿武隈改二, 雪風改     基地航空隊
+ 第一をボスに、第二をNとSに飛ばします。     ドロップしたレア艦  ボスマスS勝利
+ 択捉    ボスマスS勝利
+ 江風     </description>
+    </item>
     
     <item>
       <title>艦これ18冬イベ E-2</title>
@@ -19,9 +38,11 @@
       <guid>https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/</guid>
       <description> 丁作戦での攻略メモとなります。
 丁作戦の場合、ギミックはTマス到達だけらしいです。
-ギミック解除編成  潜水艦6  U-511, 伊401, 伊19, 伊168, 伊8, 伊58改     ボスマス 連合艦隊での攻略となるようです。
+ギミック解除編成  潜水艦6  U-511, 伊401, 伊19, 伊168, 伊8, 伊58改     ボスマス 連合艦隊(水上部隊)での攻略となるようです。
 Rマスを避けるために高速艦で統一します。
- 第一艦隊  戦艦2, 航巡1, 重巡2, 軽空母1  金剛改, 霧島改, 鈴谷改, 妙高改, 那智改, 千歳航改二   第二艦隊  軽巡1, 駆逐5  阿武隈改二, 雪風改, 時雨改二, Верный, 夕立改二, 照月改      基地航空隊   ドロップしたレア艦  ボスマスS勝利  葛城     </description>
+ 第一艦隊  戦艦2, 航巡1, 重巡2, 軽空母1  金剛改, 霧島改, 鈴谷改, 妙高改, 那智改, 千歳航改二   第二艦隊  軽巡1, 駆逐5  阿武隈改二, 雪風改, 時雨改二, Верный, 夕立改二, 照月改      基地航空隊   ドロップしたレア艦  ボスマスS勝利
+ 葛城    ボスマスS勝利
+ 国後     </description>
     </item>
     
     <item>
