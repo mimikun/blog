@@ -42,3 +42,12 @@ menu = ""
 - 基地航空隊
     - 第一をボスに、第二をNとSに飛ばします。
     {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/031/237/original/4915bf09c1099e2c.png" class="center" width="320" height="640" >}}
+
+## ドロップしたレア艦
+1. ボスマスS勝利
+    - 択捉
+    {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/031/286/original/bcbc1fd20e3b6e29.png" class="center" width="320" height="640" >}}
+
+2. ボスマスS勝利
+    - 江風
+    {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/031/287/original/2ad65213e533011f.png" class="center" width="320" height="640" >}}
