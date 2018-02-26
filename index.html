@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-02-26T20:07:39&#43;09:00"/>
+<meta property="og:updated_time" content="2018-02-26T23:28:49&#43;09:00"/>
 
 
 
@@ -177,7 +177,7 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        3
+        4
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -277,6 +277,141 @@
     <section id="main">
     
     
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/">
+    <h1 class="article-title" itemprop="name">
+        ブログの記事をデプロイする方法のメモ
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2018-02-26 23:28:49 &#43;0900 JST" itemprop="datePublished">2018-02-26</time>
+            &middot;
+            65
+            words
+            &middot;
+            1
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E6%9C%AA%E5%88%86%E9%A1%9E">未分類</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                 自分でも良く忘れるのでメモとして書いておきます。
+1. 記事作成 $ hugo new post/hogehoge_fugafuga.md  2. draft = false +++ title = &quot;hogehoge_fugafuga&quot; date = &quot;2018-02-20T11:45:14+09:00&quot; - draft = true + draft = false description = &quot;&quot; tags = [] categories = [] images = [] banner = &quot;&quot; menu = &quot;&quot; +++  3. hugo server -D でプレビューする localhost:1313へアクセス
+この内容でいいか調べます。
+4. 変更をadd, commit, pushする 5. commit-gh-pages-files.sh を実行する 6. git push origin gh-pages する 
+            </p>
+            <p class="article-more-link">
+                <a href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/" data-id="c268541a678450b4562cf385d8432613" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="https://mastoshare.net/post.php?text=' + encodedUrl + '" class="fa fa-mastodon article-share-twitter" target="_blank" title="Mastodon"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+</article>
 
 <article class="article article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
@@ -747,6 +882,32 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
             
             <li>
                 <div class="item-thumbnail">
+                    <a href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E6%9C%AA%E5%88%86%E9%A1%9E">
+                        未分類
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/" class="title">ブログの記事をデプロイする方法のメモ</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-02-26 23:28:49 &#43;0900 JST" itemprop="datePublished">2018-02-26</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
                     <a href="https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_3/" class="thumbnail">
                     
                         <span class="thumbnail-image thumbnail-none"></span>
@@ -835,6 +996,14 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
         <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://mimikun.github.io/blog/categories/%E6%9C%AA%E5%88%86%E9%A1%9E">
+                    未分類
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
             <li class="category-list-item">
                 

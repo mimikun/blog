@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja-JP">
 <head>
-    <title>艦これ18冬イベ E-1 &middot; mimikun blog</title>
+    <title>ブログの記事をデプロイする方法のメモ &middot; mimikun blog</title>
     <meta name="generator" content="Hugo 0.36.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,7 +10,7 @@
       <meta name="description" content="">
     
     
-    <link rel="canonical" href="https://mimikun.github.io/blog/2018/02/20/kancolle_18winter_e_1/"/>
+    <link rel="canonical" href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/"/>
     <link rel="icon" href="https://mimikun.github.io/blog/favicon.ico">
     <link rel="apple-touch-icon" href="https://mimikun.github.io/blog/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://mimikun.github.io/blog/css/style.css">
@@ -21,26 +21,19 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="艦これ18冬イベ E-1" />
-<meta property="og:description" content="丙作戦での攻略メモとなります。
-ギミックはF, N, BマスでのA勝利以上らしいです。
-Bマス勝利後に撤退せず、進撃しないとうまくいかないようです。
-(自分はBマスS勝利後撤退、F, Nマス勝利としたためうまく行かなくて余分に出撃してしまいました。)
-ギミック解除編成  Fマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Nマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Bマス
- 駆逐5, 軽空母1   自分の編成  Fマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Nマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Bマス
- 雪風改, 時雨改二, 夕立改二, Верный, 時津風, 千代田航改二     ボスマス  軽巡1, 駆逐3, 戦艦1, 軽空母1" />
+    <meta property="og:title" content="ブログの記事をデプロイする方法のメモ" />
+<meta property="og:description" content=" 自分でも良く忘れるのでメモとして書いておきます。
+1. 記事作成 $ hugo new post/hogehoge_fugafuga.md  2. draft = false &#43;&#43;&#43; title = &quot;hogehoge_fugafuga&quot; date = &quot;2018-02-20T11:45:14&#43;09:00&quot; - draft = true &#43; draft = false description = &quot;&quot; tags = [] categories = [] images = [] banner = &quot;&quot; menu = &quot;&quot; &#43;&#43;&#43;  3. hugo server -D でプレビューする localhost:1313へアクセス
+この内容でいいか調べます。
+4. 変更をadd, commit, pushする 5. commit-gh-pages-files.sh を実行する 6. git push origin gh-pages する " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mimikun.github.io/blog/2018/02/20/kancolle_18winter_e_1/" />
+<meta property="og:url" content="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/" />
 
 
 
-<meta property="article:published_time" content="2018-02-20T02:02:51&#43;09:00"/>
+<meta property="article:published_time" content="2018-02-26T23:28:49&#43;09:00"/>
 
-<meta property="article:modified_time" content="2018-02-20T02:02:51&#43;09:00"/>
+<meta property="article:modified_time" content="2018-02-26T23:28:49&#43;09:00"/>
 
 
 
@@ -54,41 +47,27 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
 
     
     
-<meta itemprop="name" content="艦これ18冬イベ E-1">
-<meta itemprop="description" content="丙作戦での攻略メモとなります。
-ギミックはF, N, BマスでのA勝利以上らしいです。
-Bマス勝利後に撤退せず、進撃しないとうまくいかないようです。
-(自分はBマスS勝利後撤退、F, Nマス勝利としたためうまく行かなくて余分に出撃してしまいました。)
-ギミック解除編成  Fマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Nマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Bマス
- 駆逐5, 軽空母1   自分の編成  Fマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Nマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Bマス
- 雪風改, 時雨改二, 夕立改二, Верный, 時津風, 千代田航改二     ボスマス  軽巡1, 駆逐3, 戦艦1, 軽空母1">
+<meta itemprop="name" content="ブログの記事をデプロイする方法のメモ">
+<meta itemprop="description" content=" 自分でも良く忘れるのでメモとして書いておきます。
+1. 記事作成 $ hugo new post/hogehoge_fugafuga.md  2. draft = false &#43;&#43;&#43; title = &quot;hogehoge_fugafuga&quot; date = &quot;2018-02-20T11:45:14&#43;09:00&quot; - draft = true &#43; draft = false description = &quot;&quot; tags = [] categories = [] images = [] banner = &quot;&quot; menu = &quot;&quot; &#43;&#43;&#43;  3. hugo server -D でプレビューする localhost:1313へアクセス
+この内容でいいか調べます。
+4. 変更をadd, commit, pushする 5. commit-gh-pages-files.sh を実行する 6. git push origin gh-pages する ">
 
 
-<meta itemprop="datePublished" content="2018-02-20T02:02:51&#43;09:00" />
-<meta itemprop="dateModified" content="2018-02-20T02:02:51&#43;09:00" />
-<meta itemprop="wordCount" content="56">
+<meta itemprop="datePublished" content="2018-02-26T23:28:49&#43;09:00" />
+<meta itemprop="dateModified" content="2018-02-26T23:28:49&#43;09:00" />
+<meta itemprop="wordCount" content="65">
 
 
 
-<meta itemprop="keywords" content="艦これ," />
+<meta itemprop="keywords" content="" />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="艦これ18冬イベ E-1"/>
-<meta name="twitter:description" content="丙作戦での攻略メモとなります。
-ギミックはF, N, BマスでのA勝利以上らしいです。
-Bマス勝利後に撤退せず、進撃しないとうまくいかないようです。
-(自分はBマスS勝利後撤退、F, Nマス勝利としたためうまく行かなくて余分に出撃してしまいました。)
-ギミック解除編成  Fマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Nマス
- 軽巡1, 駆逐3, 戦艦1, 軽空母1  Bマス
- 駆逐5, 軽空母1   自分の編成  Fマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Nマス
- 五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二    Bマス
- 雪風改, 時雨改二, 夕立改二, Верный, 時津風, 千代田航改二     ボスマス  軽巡1, 駆逐3, 戦艦1, 軽空母1"/>
+<meta name="twitter:title" content="ブログの記事をデプロイする方法のメモ"/>
+<meta name="twitter:description" content=" 自分でも良く忘れるのでメモとして書いておきます。
+1. 記事作成 $ hugo new post/hogehoge_fugafuga.md  2. draft = false &#43;&#43;&#43; title = &quot;hogehoge_fugafuga&quot; date = &quot;2018-02-20T11:45:14&#43;09:00&quot; - draft = true &#43; draft = false description = &quot;&quot; tags = [] categories = [] images = [] banner = &quot;&quot; menu = &quot;&quot; &#43;&#43;&#43;  3. hugo server -D でプレビューする localhost:1313へアクセス
+この内容でいいか調べます。
+4. 変更をadd, commit, pushする 5. commit-gh-pages-files.sh を実行する 6. git push origin gh-pages する "/>
 <meta name="twitter:site" content="@mimikun_Dev"/>
 
     
@@ -319,9 +298,9 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
         
 
         <header class="article-header">
-    <a href="https://mimikun.github.io/blog/2018/02/20/kancolle_18winter_e_1/">
+    <a href="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/">
     <h1 class="article-title" itemprop="name">
-        艦これ18冬イベ E-1
+        ブログの記事をデプロイする方法のメモ
     </h1>
     </a>
     <div class="article-meta">
@@ -329,9 +308,9 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2018-02-20 02:02:51 &#43;0900 JST" itemprop="datePublished">2018-02-20</time>
+            <time datetime="2018-02-26 23:28:49 &#43;0900 JST" itemprop="datePublished">2018-02-26</time>
             &middot;
-            56
+            65
             words
             &middot;
             1
@@ -345,7 +324,7 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
                 <i class="fa fa-folder"></i>
                 
                 
-                <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C">艦これ</a>
+                <a class="article-category-link" href="https://mimikun.github.io/blog/categories/%E6%9C%AA%E5%88%86%E9%A1%9E">未分類</a>
                 
                 
             </div>
@@ -354,15 +333,6 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
 
         
             
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C">艦これ</a>
-                
-                
-            </div>
             
         
     </div>
@@ -371,122 +341,44 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
         <div class="article-entry" itemprop="articleBody">
             
 
-<p>丙作戦での攻略メモとなります。</p>
+<p>自分でも良く忘れるのでメモとして書いておきます。</p>
 
-<p>ギミックはF, N, BマスでのA勝利以上らしいです。</p>
+<h4 id="1-記事作成">1. 記事作成</h4>
 
-<p>Bマス勝利後に撤退せず、進撃しないとうまくいかないようです。</p>
+<pre><code>$ hugo new post/hogehoge_fugafuga.md
+</code></pre>
 
-<p>(自分はBマスS勝利後撤退、F, Nマス勝利としたためうまく行かなくて余分に出撃してしまいました。)</p>
+<h4 id="2-draft-false">2. draft = false</h4>
 
-<h2 id="ギミック解除編成">ギミック解除編成</h2>
+<pre><code>+++
+title = &quot;hogehoge_fugafuga&quot;
+date = &quot;2018-02-20T11:45:14+09:00&quot;
+- draft = true
++ draft = false
+description = &quot;&quot;
+tags = []
+categories = []
+images = []
+banner = &quot;&quot;
+menu = &quot;&quot;
++++
+</code></pre>
 
-<ul>
-<li><p>Fマス</p>
+<h4 id="3-hugo-server-d-でプレビューする">3. <code>hugo server -D</code> でプレビューする</h4>
 
-<ul>
-<li>軽巡1, 駆逐3, 戦艦1, 軽空母1</li>
-</ul></li>
+<p><a href="http://localhost:1313/blog/">localhost:1313</a>へアクセス</p>
 
-<li><p>Nマス</p>
+<p>この内容でいいか調べます。</p>
 
-<ul>
-<li>軽巡1, 駆逐3, 戦艦1, 軽空母1</li>
-</ul></li>
+<h4 id="4-変更をadd-commit-pushする">4. 変更をadd, commit, pushする</h4>
 
-<li><p>Bマス</p>
+<h4 id="5-commit-gh-pages-files-sh-を実行する">5. commit-gh-pages-files.sh を実行する</h4>
 
-<ul>
-<li>駆逐5, 軽空母1</li>
-</ul></li>
-</ul>
-
-<h2 id="自分の編成">自分の編成</h2>
-
-<ul>
-<li><p>Fマス</p>
-
-<ul>
-<li>五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二</li>
-</ul>
-
-
-<figure class="center">
-    
-        <img src="https://mimikun.github.io/blog/images/18winter_e_1_f.png" width="320" height="640" />
-    
-    
-</figure>
-</li>
-
-<li><p>Nマス</p>
-
-<ul>
-<li>五十鈴改二, 雪風改, Верный, 時雨改二, 大和, 千代田航改二</li>
-</ul>
-
-
-<figure class="center">
-    
-        <img src="https://mimikun.github.io/blog/images/18winter_e_1_f.png" width="320" height="640" />
-    
-    
-</figure>
-</li>
-
-<li><p>Bマス</p>
-
-<ul>
-<li>雪風改, 時雨改二, 夕立改二, Верный, 時津風, 千代田航改二</li>
-</ul>
-
-
-<figure class="center">
-    
-        <img src="https://mimikun.github.io/blog/images/18winter_e_1_b.png" width="320" height="640" />
-    
-    
-</figure>
-</li>
-</ul>
-
-<h2 id="ボスマス">ボスマス</h2>
-
-<ul>
-<li><p>軽巡1, 駆逐3, 戦艦1, 軽空母1</p>
-
-<ul>
-<li>雪風改, 時雨改二, Верный, 五十鈴改二, 大和, 千代田航改二</li>
-</ul>
-
-
-<figure class="center">
-    
-        <img src="https://mimikun.github.io/blog/images/18winter_e_1_boss.png" width="320" height="640" />
-    
-    
-</figure>
-</li>
-</ul>
-
-<h2 id="ドロップしたレア艦">ドロップしたレア艦</h2>
-
-<ol>
-<li><p>ボスマスS勝利</p>
-
-
-<figure class="center">
-    
-        <img src="https://mimikun.github.io/blog/images/18winter_e_1_boss_kezuri1.png" width="320" height="640" />
-    
-    
-</figure>
-</li>
-</ol>
+<h4 id="6-git-push-origin-gh-pages-する">6. git push origin gh-pages する</h4>
 
         </div>
         <footer class="article-footer">
-    <a data-url="https://mimikun.github.io/blog/2018/02/20/kancolle_18winter_e_1/" data-id="ca1ff7e397d5ab260faafa575e13e4a4" class="article-share-link">
+    <a data-url="https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/" data-id="c268541a678450b4562cf385d8432613" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
@@ -563,14 +455,14 @@ Bマス勝利後に撤退せず、進撃しないとうまくいかないよう�
     
 <nav id="article-nav">
     
-
-    
-    <a href="https://mimikun.github.io/blog/2018/02/23/kancolle_18winter_e_2/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_3/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
-          Newer
+          Older
       </strong>
-      <div class="article-nav-title">艦これ18冬イベ E-2</div>
+      <div class="article-nav-title">艦これ18冬イベ E-3</div>
     </a>
+    
+
     
 </nav>
 
