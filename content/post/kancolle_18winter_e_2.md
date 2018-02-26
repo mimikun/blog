@@ -42,3 +42,7 @@ Rマスを避けるために高速艦で統一します。
 1. ボスマスS勝利
     - 葛城
     {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/029/534/original/c8c919131c999dff.png" class="center" width="320" height="640" >}}
+
+2. ボスマスS勝利
+    - 国後
+    {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/031/135/original/600a062f60e38ae0.png" class="center" width="320" height="640" >}}
