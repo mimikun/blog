@@ -11,3 +11,5 @@ menu = ""
 +++
 
 <!--more-->
+
+{{< figure src="" class="center" width="320" height="640" >}}
