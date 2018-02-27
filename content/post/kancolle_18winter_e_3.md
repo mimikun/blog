@@ -43,6 +43,9 @@ menu = ""
     - 第一をボスに、第二をNとSに飛ばします。
     {{< figure src="https://s3-ap-northeast-1.amazonaws.com/mstdn.mimikun.jp/media_attachments/files/000/031/237/original/4915bf09c1099e2c.png" class="center" width="320" height="640" >}}
 
+### ボスマス到達編成
+Sマス到達編成と全く同じです。
+
 ## ドロップしたレア艦
 1. ボスマスS勝利
     - 択捉
