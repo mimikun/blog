@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>戦艦少女r on mimikun blog</title>
+    <link>https://mimikun.github.io/blog/categories/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/</link>
+    <description>Recent content in 戦艦少女r on mimikun blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 03 Mar 2018 23:37:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://mimikun.github.io/blog/categories/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>戦艦少女Rイベント フェノスカンジア追撃戦</title>
+      <link>https://mimikun.github.io/blog/2018/03/03/warshipgirls_fennoscandia_event/</link>
+      <pubDate>Sat, 03 Mar 2018 23:37:31 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/03/03/warshipgirls_fennoscandia_event/</guid>
+      <description> 戦艦少女Rイベント「フェノスカンジア追撃戦」攻略メモです。
+ここの情報は間違っているかもしれないので各自Twitterなどで調べるか、分岐条件を見るなどして対応してください。
+Ex-1 オスロ・フィヨルドの戦い 分岐条件が3隻以下なので、3隻になるように編成します。
+攻略編成  空母3隻  サラトガ改(ロビン), レキシントン改(航空戦術教官), エセックス     報酬  Ex-2 バレンツ沖海戦 空母無し, 戦艦2以下, 駆逐2, 重巡1で50%の確率でボスに行くようです。
+攻略編成  巡戦1, 戦艦1, 駆逐2, 重巡1, 自由枠1  フッド改(帝国巡遊), リシュリュー, 綾波改(ソロモンの鬼神), プリンツ・オイゲン改(戦線防衛), 白雪改(絆), 長春     報酬  Ex-3 海域名 攻略編成  報酬  Ex-4 海域名 攻略編成  報酬  </description>
+    </item>
+    
+  </channel>
+</rss>
