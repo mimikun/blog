@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_4/</loc>
+    <lastmod>2018-02-26T23:41:26+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/</loc>
     <lastmod>2018-02-26T23:28:49+09:00</lastmod>
   </url>
@@ -55,13 +60,13 @@
   </url>
   
   <url>
-    <loc>https://mimikun.github.io/blog/tags/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/</loc>
+    <loc>https://mimikun.github.io/blog/categories/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/</loc>
     <lastmod>2018-03-03T23:37:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mimikun.github.io/blog/categories/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/</loc>
+    <loc>https://mimikun.github.io/blog/tags/%E6%88%A6%E8%89%A6%E5%B0%91%E5%A5%B3r/</loc>
     <lastmod>2018-03-03T23:37:31+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -73,14 +78,14 @@
   </url>
   
   <url>
-    <loc>https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C/</loc>
-    <lastmod>2018-02-26T20:07:39+09:00</lastmod>
+    <loc>https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C/</loc>
+    <lastmod>2018-02-26T23:41:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mimikun.github.io/blog/categories/%E8%89%A6%E3%81%93%E3%82%8C/</loc>
-    <lastmod>2018-02-26T20:07:39+09:00</lastmod>
+    <loc>https://mimikun.github.io/blog/tags/%E8%89%A6%E3%81%93%E3%82%8C/</loc>
+    <lastmod>2018-02-26T23:41:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   

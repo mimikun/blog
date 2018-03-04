@@ -25,6 +25,28 @@ Ex-1 オスロ・フィヨルドの戦い 分岐条件が3隻以下なので、3
     </item>
     
     <item>
+      <title>艦これ18冬イベ E-4</title>
+      <link>https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_4/</link>
+      <pubDate>Mon, 26 Feb 2018 23:41:26 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/02/26/kancolle_18winter_e_4/</guid>
+      <description>丁作戦での攻略メモとなります。
+まぁ当然っちゃ当然なのですがギミックがあるので、まずこれを解除していきます。
+ギミックはMマス到達です。
+ギミック解除編成 Mマス到達 Mマス到達だけでいいので、潜水艦4隻で行って、FとHには基地航空隊を飛ばせば安心です。
+ 潜水艦4
+ U-511, 伊58改, 伊168, 伊401    基地航空隊
+ 第一(Hマス集中), 第二(Fマス集中)     ボスマス到達編成 丁なので史実艦はそんなにいらないと思いますが、特攻が欲しかったので入れておきました。
+ 第一艦隊
+ 榛名改, 霧島改二, 長門改, 金剛改二, 瑞鶴改, 鈴谷改  第二艦隊
+ 阿武隈改二, 照月改, 時雨改二, 妙高改, 北上改二, 雪風改    基地航空隊
+ 第一をRマスに、第二の半分をRマスに、もう半分をボスに飛ばしました。    道中支援    ドロップしたレア艦 イギリス艦3連続とかいうミラクルを起こしました。
+ ボスマスS勝利
+ Jervis    ボスマスS勝利
+ Ark Royal    ボスマスS勝利</description>
+    </item>
+    
+    <item>
       <title>ブログの記事をデプロイする方法のメモ</title>
       <link>https://mimikun.github.io/blog/2018/02/26/blog_post_deploy_manual/</link>
       <pubDate>Mon, 26 Feb 2018 23:28:49 +0900</pubDate>
