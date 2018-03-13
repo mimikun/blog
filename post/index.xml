@@ -6,10 +6,19 @@
     <description>Recent content in Posts on mimikun blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 03 Mar 2018 23:37:31 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Mar 2018 18:58:54 +0900</lastBuildDate>
     
 	<atom:link href="https://mimikun.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Youtube_embed_test</title>
+      <link>https://mimikun.github.io/blog/2018/03/13/youtube_embed_test/</link>
+      <pubDate>Tue, 13 Mar 2018 18:58:54 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/03/13/youtube_embed_test/</guid>
+      <description>   </description>
+    </item>
     
     <item>
       <title>戦艦少女Rイベント フェノスカンジア追撃戦</title>
