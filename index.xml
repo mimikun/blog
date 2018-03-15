@@ -6,10 +6,23 @@
     <description>Recent content on mimikun blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 13 Mar 2018 18:58:54 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 15 Mar 2018 20:21:13 +0900</lastBuildDate>
     
 	<atom:link href="https://mimikun.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wineでえっちげを遊ぶ方法</title>
+      <link>https://mimikun.github.io/blog/2018/03/15/wine_eroge_try/</link>
+      <pubDate>Thu, 15 Mar 2018 20:21:13 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/03/15/wine_eroge_try/</guid>
+      <description>えっちげのためにWindows買うのなんかなー、うーん。、と思ったので
+ここを見て作業をしました。
+【微妙】HomebrewでWineを使う | cozy attic
+1. Wineを入れる brewで入れます。
+$ brew install wine ==&amp;gt; Downloading https://homebrew.bintray.com/bottles/wine-3.0.high_sierra.bottle Already downloaded: /Users/mimikun/Library/Caches/Homebrew/wine-3.0.high_sierra.bottle.tar.gz ==&amp;gt; Pouring wine-3.0.high_sierra.bottle.tar.gz ==&amp;gt; Regenerating font cache, this may take a while ==&amp;gt; /usr/local/Cellar/wine/3.0/libexec/bin/fc-cache -frv ==&amp;gt; Caveats You may want to get winetricks: brew install winetricks By default Wine uses a native Mac driver. To switch to the X11 driver, use regedit to set the &amp;quot;graphics&amp;quot; key under &amp;quot;HKCU/Software/Wine/Drivers&amp;quot; to &amp;quot;x11&amp;quot; (or use winetricks).</description>
+    </item>
     
     <item>
       <title>Youtube_embed_test</title>
