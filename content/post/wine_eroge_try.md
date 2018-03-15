@@ -1,7 +1,7 @@
 +++
 title = "Wineでえっちげを遊ぶ方法"
 date = "2018-03-15T20:21:13+09:00"
-draft = true
+draft = false
 description = ""
 tags = []
 categories = []
