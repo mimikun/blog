@@ -86,14 +86,22 @@ $ winetricks allfonts
 
 戦艦少女、少女前線、魔女兵器、とてもオススメです。
 
-## 4. 初期設定ファイルの置き換え
+## 4. デフォルトロケールの設定
+どちらか一方で良いらしいですが、僕は両方設定しておきました。
+
+```
+echo "export LANG=ja_JP.UTF-8" >> ~/.zshrc
+echo "export LC_ALL=ja_JP.UTF-8" >> ~/.zshrc
+```
+
+## 5. 初期設定ファイルの置き換え
 
 ```
 $ git clone https://github.com/mattintosh4/osx-wine-inf.git osx-wine-inf
 $ wine rundll32 setupapi,InstallHinfSection DefaultInstall 128 ./osx-wine.inf
 ```
 
-## 5. 使ってみる
+## 6. 使ってみる
 
 ```
 wine hoge.exe
