@@ -58,7 +58,7 @@ $ brew install wine ==&gt; Downloading https://homebrew.bintray.com/bottles/wine
 
 <meta itemprop="datePublished" content="2018-03-15T20:21:13&#43;09:00" />
 <meta itemprop="dateModified" content="2018-03-15T20:21:13&#43;09:00" />
-<meta itemprop="wordCount" content="234">
+<meta itemprop="wordCount" content="247">
 
 
 
@@ -313,7 +313,7 @@ $ brew install wine ==&gt; Downloading https://homebrew.bintray.com/bottles/wine
             <i class="fa fa-calendar"></i>
             <time datetime="2018-03-15 20:21:13 &#43;0900 JST" itemprop="datePublished">2018-03-15</time>
             &middot;
-            234
+            247
             words
             &middot;
             2
@@ -411,13 +411,21 @@ winetricks is a set of utilities for wine, which is installed separately:
 
 <p>戦艦少女、少女前線、魔女兵器、とてもオススメです。</p>
 
-<h2 id="4-初期設定ファイルの置き換え">4. 初期設定ファイルの置き換え</h2>
+<h2 id="4-デフォルトロケールの設定">4. デフォルトロケールの設定</h2>
+
+<p>どちらか一方で良いらしいですが、僕は両方設定しておきました。</p>
+
+<pre><code>echo &quot;export LANG=ja_JP.UTF-8&quot; &gt;&gt; ~/.zshrc
+echo &quot;export LC_ALL=ja_JP.UTF-8&quot; &gt;&gt; ~/.zshrc
+</code></pre>
+
+<h2 id="5-初期設定ファイルの置き換え">5. 初期設定ファイルの置き換え</h2>
 
 <pre><code>$ git clone https://github.com/mattintosh4/osx-wine-inf.git osx-wine-inf
 $ wine rundll32 setupapi,InstallHinfSection DefaultInstall 128 ./osx-wine.inf
 </code></pre>
 
-<h2 id="5-使ってみる">5. 使ってみる</h2>
+<h2 id="6-使ってみる">6. 使ってみる</h2>
 
 <pre><code>wine hoge.exe
 </code></pre>
