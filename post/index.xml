@@ -6,10 +6,22 @@
     <description>Recent content in Posts on mimikun blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 15 Mar 2018 20:21:13 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Apr 2018 01:17:36 +0900</lastBuildDate>
     
 	<atom:link href="https://mimikun.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mastodonをはじめて1年が経ちました</title>
+      <link>https://mimikun.github.io/blog/2018/04/26/mastodon_1year/</link>
+      <pubDate>Thu, 26 Apr 2018 01:17:36 +0900</pubDate>
+      
+      <guid>https://mimikun.github.io/blog/2018/04/26/mastodon_1year/</guid>
+      <description>Mastodonを初めて一年経ちました。 ぼくがJP鯖ことmstdn.jpにアカウントを作成したのは2017/04/16らしいのでもう1年は経ってることになります。
+アカウントのcreated_at(ながいので注意) ちゃーんと1年経っています。
+&amp;ldquo;created_at&amp;rdquo;: &amp;ldquo;2017-04-16T12:26:23.443Z&amp;rdquo;
+$ curl -X POST -Ss https://${MASTODON_HOST}/api/v1/statuses \ --header &amp;quot;Authorization: Bearer ${ACCESS_TOKEN}&amp;quot; \ -d &amp;quot;status=${STATUS}&amp;quot; | python -m json.tool { &amp;quot;id&amp;quot;: &amp;quot;99921131215047720&amp;quot;, &amp;quot;created_at&amp;quot;: &amp;quot;2018-04-25T16:57:44.108Z&amp;quot;, &amp;quot;in_reply_to_id&amp;quot;: null, &amp;quot;in_reply_to_account_id&amp;quot;: null, &amp;quot;sensitive&amp;quot;: false, &amp;quot;spoiler_text&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;visibility&amp;quot;: &amp;quot;public&amp;quot;, &amp;quot;language&amp;quot;: &amp;quot;ja&amp;quot;, &amp;quot;uri&amp;quot;: &amp;quot;https://mstdn.jp/users/mimikun/statuses/99921131215047720&amp;quot;, &amp;quot;content&amp;quot;: &amp;quot;&amp;lt;p&amp;gt;test&amp;lt;/p&amp;gt;&amp;quot;, &amp;quot;url&amp;quot;: &amp;quot;https://mstdn.jp/@mimikun/99921131215047720&amp;quot;, &amp;quot;reblogs_count&amp;quot;: 0, &amp;quot;favourites_count&amp;quot;: 0, &amp;quot;favourited&amp;quot;: false, &amp;quot;reblogged&amp;quot;: false, &amp;quot;muted&amp;quot;: false, &amp;quot;pinned&amp;quot;: false, &amp;quot;reblog&amp;quot;: null, &amp;quot;application&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;created_at\u898b\u308b\u3084\u3064&amp;quot;, &amp;quot;website&amp;quot;: &amp;quot;&amp;quot; }, &amp;quot;account&amp;quot;: { &amp;quot;id&amp;quot;: &amp;quot;63705&amp;quot;, &amp;quot;username&amp;quot;: &amp;quot;mimikun&amp;quot;, &amp;quot;acct&amp;quot;: &amp;quot;mimikun&amp;quot;, &amp;quot;display_name&amp;quot;: &amp;quot;mimikun@JP&amp;quot;, &amp;quot;locked&amp;quot;: false, &amp;quot;created_at&amp;quot;: &amp;quot;2017-04-16T12:26:23.</description>
+    </item>
     
     <item>
       <title>Wineでえっちげを遊ぶ方法</title>
