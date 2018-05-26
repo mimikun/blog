@@ -1,4 +1,4 @@
-baseurl = "https://mimikun.github.io/blog/"
+baseurl = "https://mimikun-blog.netlify.com/"
 languageCode = "ja-JP"
 title = "mimikun blog"
 # Enable comments by entering your Disqus shortname
